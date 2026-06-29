@@ -28,7 +28,7 @@ def scrape_remote_jobs():
         
     print(f"Found {len(job_rows)} entries. Writing to CSV...")
     
-    csv_file = "internships.csv"
+    csv_file = "books.csv"
     
     with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
